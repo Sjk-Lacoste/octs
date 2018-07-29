@@ -1,14 +1,13 @@
 
 // Fonts
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
 // Variables
 @import "variables";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
-
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+// Font-Awesome
+@import 'node_modules/font-awesome/scss/font-awesome';
+// Bulma
+@import 'node_modules/bulma/bulma';
+// Beufy Bulma Vue Modules
+@import 'node_modules/buefy/src/scss/buefy';
