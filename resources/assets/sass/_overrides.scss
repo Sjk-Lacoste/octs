@@ -1,0 +1,109 @@
+/* =======================================================
+====================Text Overrides========================
+==========================================================
+*/
+.is-muted {
+    color: $grey-light !important;
+}
+a.is-muted:hover {
+    color: $grey !important;
+}
+/* =======================================================
+====================Dropdown Overrides========================
+==========================================================
+*/
+.has-dropdown {
+    position: relative;
+
+    .navbar-dropdown {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        min-width: 200px;
+        text-align: left;
+        box-shadow: 0 0 1px rgba(57,70,70,.15), 0 20px 55px -8px rgba(57,70,70,.25);
+    }
+
+    &.is-aligned-right .navbar-dropdown {
+        right: 0;
+        left: auto;
+    }
+
+    &.is-open .navbar-dropdown {
+        display: block;
+    }
+}
+
+.navbar {
+    height: 4.5rem;
+}
+.navbar-item img {
+    max-height: 2.8rem;
+}
+
+a.navbar-item {
+    //color: $text-light;
+
+    &:hover {
+        color: $link-hover;
+    }
+
+    // Modifiers
+    &.is-active {
+        color: $link-active;
+    }
+
+    &.is-tab {
+        border-bottom: 1px solid transparent;
+        border-top: 1px solid transparent;
+        //padding-bottom: calc(0.75rem - 1px);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        //padding-top: calc(0.75rem - 1px);
+    }
+
+    &:hover {
+        border-bottom-color: $primary;
+        border-top-color: transparent;
+    }
+
+    &.is-active {
+        border-bottom: 3px solid $primary;
+        color: $primary;
+        padding-bottom: calc(0.75rem - 1px);
+    }
+}
+
+div.has-dropdown {
+    &:hover {
+        color: $link-hover;
+    }
+    
+    // Modifiers
+    &.is-active {
+        color: $link-active;
+    }
+
+    &.is-tab {
+        border-bottom: 1px solid transparent;
+        border-top: 1px solid transparent;
+        padding-bottom: calc(0.75rem - 1px);
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: calc(0.75rem - 1px);
+    }
+
+    &:hover {
+        border-bottom-color: $primary;
+        border-top-color: transparent;
+    }
+
+    &.is-active {
+        border-bottom: 3px solid $primary;
+        color: $primary;
+        padding-bottom: calc(0.75rem - 1px);
+    }
+}

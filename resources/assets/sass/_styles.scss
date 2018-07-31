@@ -1,0 +1,33 @@
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+/* Table of contents
+======================================================================
+    1. Scaffolding
+    2. Typography
+    3. Tables
+    4. Buttons
+    5. Tabs
+    6. Sections
+    7. Breadcrumb
+    8. Panels
+    9. Circle Icon
+    10. Testimonials & Revies
+    11. Progress Bars
+    12. Tooltip
+    13. Social Icons
+    14. Form Elements
+    15. Dropdown menus
+    16. Alerts
+    17. Feature Box
+    18. Pager pagination
+    19. Wells
+    20. Carousels
+    21. Blog
+*/
